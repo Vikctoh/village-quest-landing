@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { WifiOff, Gamepad2, MapPin, LineChart, Smartphone, Languages } from "lucide-react";
+import { WifiOff, Gamepad2, MapPin, LineChart, Smartphone, Languages, Cloud } from "lucide-react";
 
 const Solution: React.FC = () => {
   const features = [
@@ -10,6 +10,7 @@ const Solution: React.FC = () => {
     { icon: <LineChart />, title: "Progress Tracking", desc: "Learners will be able to monitor their growth through visual maps and skill trees." },
     { icon: <Smartphone />, title: "Low-End Android Support", desc: "Our engine will be optimized to run smoothly on legacy devices with limited memory." },
     { icon: <Languages />, title: "Dual-Language Support", desc: "The app will support seamless switching between local dialects and national languages." },
+    { icon: <Cloud />, title: "Cloud-Powered Intelligence", desc: "LearnHamletiq uses cloud infrastructure for content delivery, student progress data, and AI-powered personalized learning." },
   ];
 
   return (
@@ -25,8 +26,11 @@ const Solution: React.FC = () => {
             <h3 className="text-4xl lg:text-6xl font-black mb-8 leading-[1.1]">
               Built for Impact, Designed for Access
             </h3>
-            <p className="text-slate-400 text-lg mb-12 leading-relaxed font-medium">
+            <p className="text-slate-400 text-lg mb-6 leading-relaxed font-medium">
               LearnHamletiq is being built to make learning more accessible, engaging, and relevant for children in underserved communities. We are rethinking the digital classroom for the offline world.
+            </p>
+            <p className="text-slate-300 text-base mb-12 leading-relaxed font-semibold border-l-2 border-emerald-500 pl-4">
+              LearnHamletiq uses cloud infrastructure for content delivery, student progress data, and AI-powered personalized learning — so every child gets a curriculum that adapts to them.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-x-10 gap-y-12">

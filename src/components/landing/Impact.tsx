@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { CheckCircle2, ShieldCheck, Cpu, Heart, School, Globe } from "lucide-react";
+import { CheckCircle2, ShieldCheck, Cpu, Heart, School, Globe, BrainCircuit } from "lucide-react";
 
 const Impact: React.FC = () => {
   return (
@@ -48,7 +48,8 @@ const Impact: React.FC = () => {
                 { icon: <Globe size={20} />, title: "Designed for Offline Access", desc: "No constant data connection required for full curriculum access." },
                 { icon: <Cpu size={20} />, title: "Built for Affordable Devices", desc: "Optimized for the $50 Android smartphones common in rural areas." },
                 { icon: <Heart size={20} />, title: "Created for Rural Learners", desc: "Every lesson is designed with village-based contexts and storytelling." },
-                { icon: <School size={20} />, title: "Structured for Partnerships", desc: "Designed for easy integration with schools, NGOs, and community programs." }
+                { icon: <School size={20} />, title: "Structured for Partnerships", desc: "Designed for easy integration with schools, NGOs, and community programs." },
+                { icon: <BrainCircuit size={20} />, title: "AI-Powered Personalized Learning", desc: "Cloud infrastructure powers adaptive learning paths that adjust in real time to each child's pace and skill level." }
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="mt-1 bg-emerald-100 p-2 rounded-full text-emerald-600">

@@ -23,6 +23,15 @@ const Hero: React.FC = () => {
               <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
               Preparing for Pilot Launch
             </motion.div>
+
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.25 }}
+              className="text-sm font-bold text-emerald-700 uppercase tracking-[0.18em] mb-5"
+            >
+              Offline-first edtech platform improving literacy in underserved communities.
+            </motion.p>
             
             <h1 className="text-5xl lg:text-7xl font-black text-slate-900 leading-[1.1] mb-8">
               Learning That <span className="text-emerald-600">Reaches Every Child</span>
