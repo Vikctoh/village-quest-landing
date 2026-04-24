@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
           <div>
             <h5 className="font-black text-slate-900 mb-8 uppercase tracking-widest text-xs">Get In Touch</h5>
             <p className="text-slate-500 font-medium mb-6">
-              partners@learnhamletiq.io<br/>
+              info@learnhamletiq.space<br/>
               Join our waitlist for updates.
             </p>
             <div className="flex items-center gap-3 p-4 bg-white rounded-2xl border border-slate-100 shadow-sm">
